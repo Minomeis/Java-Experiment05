@@ -1,4 +1,4 @@
-#大2020 韩若梅
+#大202 韩若梅
 ## 一、实验目的
 1. 掌握字符串String及其常用方法的使用
 2. 掌握输入输出流的使用
@@ -14,9 +14,9 @@
 1. 首先思考如何实现分词（即添加标点以及换行），我通过循环整个字符串，每7个字节获取一次，然后将标点与其拼接后组成新的带标点换行的字符串。
 2. 其次是查词功能，通过indexOf()函数，定位到第一次出现词语位置，然后通过substring()函数截取第一次出现后的字符串，继续循环查找，直至没有为止（indexOf()==-1）。
 
-##五、流程图
+## 五、流程图
 ![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/Java%E5%AE%9E%E9%AA%8C5.png)
-##六、关键代码
+## 六、关键代码
 1. 循环实现分词
 ```java
 public static String add_bd(){    //加标点
@@ -70,13 +70,13 @@ public static void find_word(){   //查词
         System.out.println(word+"一共出现了"+i+"次");
         }
 ```
-##七、运行截图
+## 七、运行截图
 1. 分词
 ![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/001.jpg)
 2. 查词
 ![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/002.jpg)
 ![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/003.jpg)
-##八、感想体悟
+## 八、感想体悟
 &emsp;&emsp;本次实验，因为有之前作业的基础，因此完成的比较快。而且与前几次实验相比，本次实验并不是需要系统化的去创建多个类和对象，
 因此代码量相对较少，所以整体花费时间较少。能够帮助我理解部分字符串相关的函数，同时也发现还有大量我不清楚的函数存在，需要我去学习。
 <br>&emsp;&emsp;对于IO流的有关内容，更能够深刻的了解IO流具体是一个什么意思，上课时说实话感觉上比较抽象，不能够很好的理解，
