@@ -15,7 +15,7 @@
 2. 其次是查词功能，通过indexOf()函数，定位到第一次出现词语位置，然后通过substring()函数截取第一次出现后的字符串，继续循环查找，直至没有为止（indexOf()==-1）。
 
 ##五、流程图
-![]()
+![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/Java%E5%AE%9E%E9%AA%8C5.png)
 ##六、关键代码
 1. 循环实现分词
 ```java
@@ -72,9 +72,10 @@ public static void find_word(){   //查词
 ```
 ##七、运行截图
 1. 分词
-![]()
+![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/001.jpg)
 2. 查词
-![]()
+![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/002.jpg)
+![](https://github.com/Minomeis/Java-Experiment05/blob/master/img/003.jpg)
 ##八、感想体悟
 &emsp;&emsp;本次实验，因为有之前作业的基础，因此完成的比较快。而且与前几次实验相比，本次实验并不是需要系统化的去创建多个类和对象，
 因此代码量相对较少，所以整体花费时间较少。能够帮助我理解部分字符串相关的函数，同时也发现还有大量我不清楚的函数存在，需要我去学习。
